@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "atomic_state_race.c",
+    "sha256": "9c619aef9467bea8c0dafae8110e980392fb497d3a4bd06bd400d6032c24c482",
+    "bytes": 1564
+  },
+  {
+    "filename": "atomic_tickets.c",
+    "sha256": "cd6e45b3616650765d26e10da0213e50fd82b3497408419ad2da165164049636",
+    "bytes": 739
+  },
+  {
+    "filename": "bft_fixed.c",
+    "sha256": "578ecf352c32a9114155a0141d4adc604c35b9c97bde99b5828a65ff924d2af8",
+    "bytes": 3065
+  },
+  {
+    "filename": "big_atomic_energy.c",
+    "sha256": "0749f586931acb91483c78a67b87bb7acbe43a8eeb439ce7aadd5fb719897706",
+    "bytes": 303
+  },
+  {
+    "filename": "cache_battle.c",
+    "sha256": "6e11f2fc8163f195f13fd60be3605c2b9ed4a4633c74fb671831e600cfb468a3",
+    "bytes": 788
+  },
+  {
+    "filename": "cache_ping_pong.c",
+    "sha256": "ef7b93f817c2f1ed099987d35847809126a15d1e00c3e5334f83da141799817c",
+    "bytes": 3064
+  },
+  {
+    "filename": "cas_claim.c",
+    "sha256": "cc1aa3adecad87dde8a109197c38034b1d1bd9b9903a904bfdc2853677fbda8c",
+    "bytes": 1039
+  },
+  {
+    "filename": "flawed_consensus.c",
+    "sha256": "eb6df5cb3f3f5846279dac1f8aafb01b8e272f4ec50c18da9477f023a7f10719",
+    "bytes": 2724
+  },
+  {
+    "filename": "global_mutex_consensus.c",
+    "sha256": "9a396142026ac5c3e2302e67b2101186f1a9fb9aeb0fb4a8a1ba1fd2b77c77fc",
+    "bytes": 2842
+  },
+  {
+    "filename": "optimistic_reservations.c",
+    "sha256": "5df9b499ad0cd3f9f7784b1095797c85489e58d50a98b7962c3abc8e63b513f4",
+    "bytes": 1112
+  },
+  {
+    "filename": "pessimistic_reservations.c",
+    "sha256": "000d9450c8d0937f53d020efb6838cbbcad82f70cf68d99a98c3f0f354163666",
+    "bytes": 934
+  },
+  {
+    "filename": "reservations.c",
+    "sha256": "bc09925544ccf677582df9787a7ccb49b2e497d3afbc754ee105e7fbf6567444",
+    "bytes": 834
+  },
+  {
+    "filename": "serving.c",
+    "sha256": "8230cf5f3725e6becafa959b123ebe990d9259099f9c621e23286779fe8850fa",
+    "bytes": 1940
+  },
+  {
+    "filename": "spin_lock.c",
+    "sha256": "a1d934c599c86318d24cc284c10b3d9403b8b79ab56f46645705f0ab89a4ba23",
+    "bytes": 797
+  },
+  {
+    "filename": "thread_relay.c",
+    "sha256": "1a61ef2a329aa4da84d85a97ada33c9bff206511eda5e4645381381625ee97c8",
+    "bytes": 1430
+  },
+  {
+    "filename": "tickets.c",
+    "sha256": "efc1a23493202b3c9b3c8a6b48c58d5db6e6e8ee8d909cc7b9cb485c8406ae56",
+    "bytes": 3346
+  }
+]

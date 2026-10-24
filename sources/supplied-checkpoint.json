@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "course": "Understanding Complex Systems",
+  "revision": "0.1",
+  "captured_on": "2026-10-16",
+  "source_title": "Concurrency progression review",
+  "source_conversation_url": "https://chatgpt.com/g/g-p-6abbdb23b2ec81918c8b65743e1546ea/c/6abd37af-0fac-83ea-b773-effcb504df27",
+  "shared_snapshot_url": "https://chatgpt.com/share/6ad230da-b864-83ea-8164-2d92a0237cbc",
+  "source_message_count": 89,
+  "source_prompt_count": 45,
+  "source_snapshot_sha256": "15261d5fa3ca12a5ab886304eea0310cdbd5fd56dd4cabe11cb6c8929853a370",
+  "last_included_user_message_id": "5a7832e7-87b5-45b8-85ce-b04434a3edff",
+  "last_included_assistant_message_id": "ed933285-9e47-4aac-b3bb-ed94d9aaab14",
+  "last_included_assistant_dom_turn": 90,
+  "last_included_assistant_excerpt": " because R0 and R1 disagree while R2 and R3 cancel each other out.\n\nAnd I think there's a particularly interesting lesson here:\n\nWe've successfully removed the local races, but the order in which independent replicas receive requests can still prevent the system from reaching consensus.\n\nThat's the distinction we wanted to discover. Your mutexes enforce local correctness, but no mutex is responsible for getting the replicas to collectively agree.\n\nOnce you've managed to reproduce that 2–2 split, we'll have a concrete example of a system that is completely safe under its voting rules yet unable to make forward progress.",
+  "last_message_timestamp": null,
+  "timestamp_note": "The shared page did not expose an absolute timestamp for the final exchange; capture date is not its message date.",
+  "covered_through": "Per-replica full-operation mutex repair; quorum intersection; safety versus liveness; opposite-to-R2 faulty vote behavior.",
+  "exercise_in_progress": "Reproduce a split vote with correct local synchronization. R0 and R1 must support different proposals; R3 complements R2.",
+  "not_completed": [
+    "A reproducible split-vote run shown by the learner",
+    "Safe additional voting rounds",
+    "Leader/view changes",
+    "Quorum certificates and persistent commitments",
+    "ABA and memory reclamation exercises"
+  ],
+  "source_scope": "Shared thread begins with recap of previous counter/cache lessons. Those earlier programs are not in this snapshot.",
+  "extraction_note": "Captured 45 user messages and 44 assistant messages from rendered shared page. DOM turn 70 had no rendered message content; not reconstructed. Images indicated as uploads were not transcribed.",
+  "update_rule": "Resolve current manuscript, locate final included message ID or excerpt in refreshed source, append later completed lessons; track corrections to prior chapters separately. Preserve the existing document identity.",
+  "verification_rule": "Treat delay-based schedules as demonstrations, not guarantees; label new runs and new implementations separately from the source conversation."
+}
